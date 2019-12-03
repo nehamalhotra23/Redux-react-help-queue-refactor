@@ -31,15 +31,6 @@ class App extends React.Component {
     clearInterval(this.waitTimeUpdateTimer);
   }
 
-  updateTicketElapsedWaitTime() {
-  //   var newMasterTicketList = Object.assign({}, this.state.masterTicketList);
-  //   Object.keys(newMasterTicketList).forEach(ticketId => {
-  //     newMasterTicketList[ticketId].formattedWaitTime = (newMasterTicketList[ticketId].timeOpen).fromNow(true);
-  //   });
-  //   this.setState({masterTicketList: newMasterTicketList});
-  // }
-  }
-
   handleChangingSelectedTicket(ticketId){
     this.setState({selectedTicket: ticketId});
   }
